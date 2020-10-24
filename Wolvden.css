@@ -1,0 +1,862 @@
+/* FONT IMPORT */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* DESKTOP BACKGROUND */
+
+@media screen and (min-width: 601px){
+body {
+	background: url(' https://s1.ax1x.com/2020/10/24/BZadSK.png') center center fixed;
+	background-size: cover; 
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: lowercase !important;
+	color: #616161;}
+}
+
+@media screen and (max-width: 600px){
+body {
+	background: #efe3ce;
+	background-size: cover;
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: lowercase !important;
+	color: #616161;}
+}
+
+/* NAVBAR ICONS */
+
+i.fa {
+	color: #ffffff !important;
+}
+
+/* NAVBAR (DEN, CROSSROADS, HOARD) */
+
+.navbar {
+	background: # 8A8A8A !important;
+	color: #D4D4D4 !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+
+.navbar a.nav-link {
+	color: #f6f2e9 !important;
+	font-size: 22px !important;
+	text-transform: lowercase !important;
+}
+
+div#main-menu.collapse.navbar-collapse a.nav-link {
+	padding: 10px !important;
+}
+
+/* NAVBAR LINK HOVER */
+
+#header .navbar-main .active .nav-link,#header .navbar-main .active .nav-link .fa,#header .navbar-main .nav-link:hover,#header .navbar-main .nav-link:hover .fa {
+	color: # FFCE29 !important;
+}
+
+/* BREADCRUMB BAR 1 (Welcome back, [user]) */
+
+.navbar-status, .navbar-expand {
+	background: #A3A3A3 !important;
+	color: #616161 !important;
+}
+
+.navbar-status, .navbar-expand a.nav-link {
+	color: #616161 !important;
+	font-size: 14px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+}
+
+span.d-none.d-lg-inline.navbar-text a:hover {
+	color: #616161 !important;
+}
+
+button.btn.dropdown-toggle.border-0.text-light.b.m-0.p-0 {
+	color: #616161 !important;
+	transition: 0s !important;
+}
+
+i.fa.fa-envelope-open, i.fa.fa-box {
+	color: #616161 !important;
+}
+
+/* BREADCRUMB BAR 1 DROPDOWN */
+
+div.dropdown-menu.show {
+	background: #f6f2e9 !important;
+	border: none !important;
+	color: #616161 !important;
+}
+
+a.dropdown-item.text-dark {
+	color: #616161 !important;
+}
+
+/* BREADCRUMB BAR 2 (Home / [user] / Pack) */
+ 
+nav.breadcrumb-nav {
+	background: rgba(239, 221, 187, 0.4) !important;
+	color: #616161 !important;
+	border-bottom: none !important;
+}
+
+nav.breadcrumb-nav a {
+	color: #616161 !important;
+}
+
+li.breadcrumb-item.active {
+	color: #616161 !important;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        th.pt-1.pb-1::after {
+            right: 3%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        th.pt-1.pb-1::after {
+            right: 3%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        th.pt-1.pb-1::after {
+            right: 3%;
+        }
+    }
+/* ALERTS */
+
+.alert, .alert-success, .alert-danger {
+	background: # D4D1C2 !important;
+	border: none !important;
+	color: #616161 !important;
+}
+
+.alert a, .alert-success a, .alert-danger a {
+	color: #616161 !important;
+}
+
+/* LEFT SIDEBAR (BACKGROUND) */
+
+div.col-lg-3 {
+	background: rgba(239, 221, 187, 0.4) !important;
+	border-right: none !important; 
+}
+
+/* MAIN PANEL (BACKGROUND) */
+
+div.col-lg-9.order-lg-2 {
+	background: rgba(239, 221, 187, 0.4) !important;
+}
+
+/* PACK NAME (H1) */
+
+div.col-lg-9.order-lg-2 h1 {
+	color: #616161 !important;
+	font-size: 50px !important;
+	text-shadow: 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+/* TAB 1 ([User]'s Den) + /* TAB 2 ([User]'s Profile) (Text Color Shared With Navbar) */ 
+
+ul.nav.nav-tabs a.nav-link {
+	background: none !important;
+	color: #616161 !important;
+	margin: 1px !important;
+	border: none !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+
+ul.nav.nav-tabs {
+	border-bottom: none !important;
+}
+
+ul.nav.nav-tabs a.nav-link.active {
+	background: # D8D7D5 !important;
+	color: #616161 !important;
+	border: none !important;
+	border-bottom: none !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+	margin: 1px !important;
+}
+
+/* REPORT A BUG */
+
+button.btn.btn-danger.btn-lg.mb-3 {
+	background: # D4D4D4 !important;
+	color: #616161 !important;
+	border: none !important;
+	margin-top: 10px !important;
+}
+
+/* BUGBOX */
+
+form.mb-3.text-center a h4 {
+	color: #616161 !important;
+}
+
+form.mb-3.text-center a h4 i.fa.fa-box {
+	color: #616161 !important;
+}
+
+/* LEFT PANELS */
+
+.card {
+	background: #f6f2e9 !important;
+	border: none !important;
+	border-radius: 10px !important;
+}
+
+div.card-body a {
+	color: #616161 !important;
+}
+
+div.card-body a b {
+	color: #616161 !important;
+}
+
+h3 {
+	color: #616161 !important;
+}
+
+/* LEFT PANELS SHADOW */
+
+#sidebar .card {
+	border-bottom: 7px solid #e0dcd4 !important;
+}
+
+/* CHAT TOGGLE */
+
+i.fa.fa-plus.fa-lg, i.fa.fa-lg.fa-minus {
+	color: #828282 !important;
+}
+
+/* PROGRESS BARS */
+
+.progress {
+	background: #e0dcd4 !important;
+}
+
+div#progress-energy.progress-bar.bg-warning {
+	background: #FFE894 !important;
+}
+
+div#progress-hunger.progress-bar.bg-danger {
+	background: #5790BF !important;
+}
+
+div#progress-hp.progress-bar.bg-info {
+	background: #EB4242 !important;
+}
+ 
+div#progress-xp.progress-bar.bg-success {
+	background: #5CB55C !important;
+}
+
+div.progress-bar.bg-warning {
+	background: #FFE894 !important;
+}
+
+div.progress-bar.bg-primary {
+	background: #5790BF !important;
+}
+
+div.progress-bar.bg-danger {
+	background: #EB4242 !important;
+}
+
+div.progress-bar.bg-info {
+	background: #5CB55C !important;
+}
+
+div.progress-bar.bg-success {
+	background: #E0DEE0 !important;
+}
+
+/* WOLF NAME BAR */
+
+th.pt-1.pb-1 {
+	background: #7D7D7D !important;
+	color: #F5F5F5 !important;
+	border: none !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;	
+}
+
+th.pt-1.pb-1 a {
+	color: #F5F5F5 !important;
+}
+
+/* CAVE NAME BAR */
+
+th.top {
+	background: #7D7D7D !important;
+	color: #F5F5F5 !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+
+th.top a {
+	color: #F5F5F5 !important;
+}
+
+/* "MANAGE (CAVE NAME)" */
+
+.floatright a {
+	color: #4C4C4C !important;
+}
+
+/* SELECT/INPUT BARS */
+
+select.form-control {
+	background: #F6F6F6 !important;
+	color: #616161 !important;
+	border: none !important;
+}
+
+button.btn.btn-success {
+	background: #D7D7D7 !important;
+	color: #616161!important;
+	border: none !important;
+}
+
+/* CAVE UPDATE BUTTON */
+
+button#submitBtn.btn.btn-primary {
+	background: #D7D7D7 !important;
+	color: #616161 !important;
+	border: none !important;
+}
+
+/* MAIN PANELS/TABLES */
+
+tr {
+	background: #F6F6F6 !important;
+	border: none !important;
+}
+
+td.row {
+	background: none !important;
+	border: none !important;
+}
+
+td.bottom {
+	background: #F6F6F6 !important;
+	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
+
+td.bottom tr.pup {
+	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
+
+tbody tr td {
+	background: #F6F6F6 !important;
+}
+
+/* INNER TABLE (LEFT) */
+
+td.b {
+	background: #F6F6F6 !important;
+}
+
+/* INNER TABLE (RIGHT) */
+
+tr td a {
+	color: #616161 !important;
+}
+
+i.fas.fa-question-circle {
+	color: #F6F6F6 !important;
+}
+
+/* LEAD WOLF SHADOW */
+
+div.card-body.pt-1.pb-1 {
+	background: #F6F6F6 !important;
+}
+
+/* FEATURED WOLF */
+
+div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.featured-wolf a {
+	color: #616161 !important;
+}
+
+.card-user {
+	border: none !important;
+}
+
+/* REMOVE FEATURED WOLF BUTTON */
+
+button.btn.btn-link.btn-sm.text-danger {
+	color: #616161 !important;
+}
+
+/* WOLF IMAGES */
+
+td.row img.card-img-top {
+	border-radius: 20px !important;
+	overflow: hidden !important;
+}
+
+div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf img {
+	border-radius: 20px !important;
+	overflow: hidden !important;
+}
+ 
+div.card-body img {
+	border-radius: 20px !important;
+	overflow: hidden !important;
+}
+
+/* DYNASTY, NESTING, OVERVIEW, BREEDING, TERRITORY SLOT, IMMORTAL SLOT */
+
+.card-header {
+	background: #D4D4D4 !important;
+	color: #616161 !important;
+	text-decoration: none !important;
+	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
+
+div.col-md-6 .card-header {
+	background: #D4D4D4 !important;
+	color: #616161 !important;
+	text-decoration: none !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
+
+.card-header:hover {
+	text-decoration: none !important;
+}
+
+.card-header b:hover {
+	color: #616161 !important;
+}
+
+button.btn.btn-warning {
+	background: #d4d4d4 !important;
+	border: none !important;
+}
+
+/* DYNASTY, NESTING, OVERVIEW, BREEDING IMAGES */
+
+div.card.text-center>img {
+	content: url('https://puu.sh/Guix1/ca44f8c2d2.png')!important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+
+a[href$="dynasty/401"]>div.card.text-center>img {
+	content: url('https://puu.sh/Guix2/88c305504b.png')!important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+
+a[href$="pack-overview/401"]>div.card.text-center>img {
+	content: url('https://puu.sh/Guix3/e4ded7d49d.png')!important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+
+a[href$="breed/117"]>div.card.text-center>img {
+	content: url('https://puu.sh/GuixI/e0b3510c66.png')!important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+
+/* FAPA, AUTO NESTING */
+
+div#autoNesting.card-header {
+	background: #d4d4d4 !important;
+	color: #616161!important;
+	overflow: hidden!important;
+}
+
+div#groveServices.accordion {
+	background: none;
+	color: #616161!important;
+	border-radius: 0!important;
+	overflow: hidden!important
+}
+
+/* FAPA, AUTO NESTING TEXT */
+
+button.btn.btn-link.btn-block.text-left.border-0.b.pl-0, button.btn.btn-link.btn-block.text-left.border-0.b.pl-0 a {
+	color: #616161 !important;
+}
+
+a.text-danger.small {
+	color: #616161 !important;
+}
+
+/* CREATE A CAVE */
+
+button.btn.btn-info.btn-sm {
+	background: #C4C4C4;
+	color: #F6F6F6;
+	border: none!important
+}
+
+/* FEED/PLAY BUTTONS */
+
+button.btn.btn-info.btn-sm {
+	background: #c4c4c4;
+	color: #f6f6f6;
+	border: none !important;
+}
+
+/* ROLLOVERS REMAINING TEXT */
+
+div.col-auto.pt-1 {
+	color: #616161;
+}
+
+/* COPYRIGHT */
+
+div.row.justify-content-center {
+	background: #e0c17c !important;
+	border: none !important;
+	color: #616161 !important;
+	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
+
+div.row.justify-content-center a {
+	color: #616161 !important;
+}
+
+nav.navbar.navbar-expand.navbar-dark.flex-wrap.justify-content-center {
+	background: #E0E0E0 !important;
+}
+
+/* SHITTY BORDER BEGONE */
+
+table.table.table-striped {
+	border: none !important;
+}
+
+table.table {
+	border: none !important;
+}
+
+div.w-50 {
+	border: none !important;
+}
+
+/* LEAD WOLF PAGE & USER PROFILE ADDONS */
+
+/* OWNED BY ___ TEXT */
+
+div.float-right.text-right a {
+	color: #616161 !important;
+}
+
+/* VIEW PREVIOUS PACKS TEXT */
+
+span.small a {
+	color: #616161 !important;
+}
+
+/* HEADER BARS */
+
+th.b, tbody tr th {
+	background: #e0e0e0 !important;
+	border: none !important;
+	color: #616161 !important;
+}
+
+/* STATS */
+
+td.table-info.b.text-right {
+	background: none !important;
+}
+
+td.table-info.b.text-left {
+	background: none !important;
+}
+
+/* RETIRE, VIEW FAMILY, VIEW IN WARDROBE, GO TO EQUIPPER BUTTONS */
+
+a.btn.btn-primary.btn-block {
+	background: #e0e0e0 !important;
+	border: none !important;
+	color: #616161 !important;
+}
+
+a.btn.btn-info.btn-block {
+	background: #e0e0e0 !important;
+	border: none !important;
+	color: #616161 !important;
+}
+
+/* WOLF DETAILS, DECORATIONS, SETTINGS BUTTONS */
+
+a.nav-item.nav-link {
+	background: #e0e0e0 !important;
+	border: none !important;
+	margin: 5px !important;
+	color: #616161 !important;
+}
+
+/* ACHIEVEMENTS */
+
+div.alert.alert-info.text-center {
+	background: #d4d4d4 !important;
+}
+
+/* PROFILE DIVIDER LINES */
+
+div#nav-tab.nav.nav-tabs {
+	border-color: #f6f6f6 !important;
+}
+
+hr {
+	border-color: #f6f6f6 !important;
+}
+
+/* BREED TO THIS BREEDING MALE BUTTON */
+
+a.btn.btn-info {
+	background: #e0e0e0 !important;
+	border: none !important;
+	color: #f6f6f6 !important;
+}
+
+/* UPDATE BUTTON */
+
+button.btn.btn-primary.float-right {
+	background: #e0e0e0 !important;
+	border: none !important;
+	color: #f6f6f6 !important;
+}
+
+/* REPORT WOLF BUTTON */
+
+button.btn.btn-danger {
+	background: #e0e0e0 !important;
+	border: none !important;
+	color: #616161 !important;
+}
+
+/* CHANGE PASSWORD, MANAGE DEVICES, VIEW USER LOG */
+
+div.card-body.text-center.font-weight-bold.p-2 {
+	background: #e0e0e0 !important;
+	color: #616161 !important;
+}
+
+/* LAST ACTIVE TEXT + ONLINE/OFFLINE DOTS */
+
+span.text-success {
+	color: #4E9C53 !important;
+}
+
+span.text-failure {
+	color: #B22C25 !important;
+}
+
+/* LEFT + RIGHT ARROWS */
+
+i.fas.fa-arrow-alt-circle-left {
+	color: #616161 !important;
+}
+
+i.fas.fa-arrow-alt-circle-right {
+	color: #616161 !important;
+}
+
+/* WOLF ID */
+
+span.text-muted {
+	color: #616161 !important;
+}
+
+/* BIO TEXT BOX */
+
+div.note-toolbar.card-header {
+	background: #e0e0e0 !important;
+	color: #B22C25 !important;
+}
+
+div.note-editing-area {
+	background: #f6f6f6 !important;
+	color: #616161 !important;
+}
+
+/* LINKS */
+
+a:link,
+a:visited {
+	color: #616161 !important;
+}
+
+span.d-none.d-md-inline {
+	color: #616161 !important;
+}
+
+a:hover {
+	color: #FFD84C !important;
+}
+
+/* BOXES */ 
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+.profilebox {
+	float: left;
+	background: #f6f6f6;
+	color: #616161;
+	padding: 15px;
+	border: none;
+	border-bottom: 7px solid #e0e0e0 !important;
+	border-radius: 10px;
+	margin: 10px 10px 20px 10px;
+	height: 285px;
+	width: 415px;
+	overflow: auto;
+}
+
+.profilebox a:link, .profilebox a:visited {
+	color: #878787 !important;
+}
+
+.denbox {
+	float: left;
+	background: #f6f6f6;
+	color: #616161;
+	padding: 15px;
+	border: none;
+	border-radius: 10px;
+	margin: 10px 10px 20px 10px;
+	height: 220px;
+	width: 408px;
+	overflow: auto;
+}
+
+.denbox a:link, .denbox a:visited {
+	color: #878787 !important;
+}
+
+.art {
+	background: none;
+	padding: none;
+	border: none;
+	margin: 8px;
+	float: right;
+	height: 500px;
+	width: 408px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	margin-bottom: -280px;
+	margin-right: 60px;
+	pointer-events: none;
+}
+
+.creditbox {
+	float: left;
+	background: none;
+	color: #616161;
+	padding: 1px;
+	border: none;
+	border-radius: 10px;
+	margin: 1px;
+	height: 25px;
+	width: 408px;
+	overflow: hidden;
+}
+
+.creditbox2 {
+	float: left;
+	background: none;
+	color: #644629;
+	padding: 1px;
+	border: none;
+	border-radius: 10px;
+	margin: 1px;
+	height: 25px;
+	width: 408px;
+	overflow: hidden;
+}
+
+.creditbox a:link, .creditbox a:visited {
+	color: #878787 !important;
+}
+
+.creditbox2 a:link, .creditbox2 a:visited {
+	color: #878787 !important;
+}
+
+@media screen and (max-width: 600px){
+.art {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+.creditbox {
+	display: none !important;
+	visibility: hidden !important;
+}
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 0px;
+	border-radius: 10px;
+	overflow: hidden !important;
+}
+
+::-webkit-scrollbar-track {
+	background: #e0e0e0;
+	border-radius: 10px;
+	overflow: hidden !important;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #c4c4c4;
+	border-radius: 10px;
+	overflow: hidden !important;
+}
+
+.denbox::-webkit-scrollbar {
+	width: 8px;
+	height: 0px;
+	border-top-right-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	overflow: hidden !important;
+}
+
+.denbox::-webkit-scrollbar-track {
+	background: #e0e0e0;
+	border-top-right-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	overflow: hidden !important;
+}
+
+.denbox::-webkit-scrollbar-thumb {
+	background: #c4c4c4;
+	border-radius: 10px !important;
+	overflow: hidden !important;
+}
+
+
