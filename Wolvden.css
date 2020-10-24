@@ -9,7 +9,7 @@ body {
 	background: url(' https://s1.ax1x.com/2020/10/24/BZadSK.png') center center fixed;
 	background-size: cover; 
 	font-family: 'Josefin Sans', sans-serif;
-	text-transform: lowercase !important;
+	text-transform: lowercase;
 	color: #616161;}
 }
 
@@ -18,94 +18,94 @@ body {
 	background: #efe3ce;
 	background-size: cover;
 	font-family: 'Josefin Sans', sans-serif;
-	text-transform: lowercase !important;
+	text-transform: lowercase;
 	color: #616161;}
 }
 
 /* NAVBAR ICONS */
 
 i.fa {
-	color: #ffffff !important;
+	color: #ffffff;
 }
 
 /* NAVBAR (DEN, CROSSROADS, HOARD) */
 
 .navbar {
-	background: # 8A8A8A !important;
-	color: #D4D4D4 !important;
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;
+	background: # 8A8A8A;
+	color: #D4D4D4;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 .navbar a.nav-link {
-	color: #f6f2e9 !important;
-	font-size: 22px !important;
-	text-transform: lowercase !important;
+	color: #f6f2e9;
+	font-size: 22px;
+	text-transform: lowercase;
 }
 
 div#main-menu.collapse.navbar-collapse a.nav-link {
-	padding: 10px !important;
+	padding: 10px;
 }
 
 /* NAVBAR LINK HOVER */
 
 #header .navbar-main .active .nav-link,#header .navbar-main .active .nav-link .fa,#header .navbar-main .nav-link:hover,#header .navbar-main .nav-link:hover .fa {
-	color: # FFCE29 !important;
+	color: # FFCE29;
 }
 
 /* BREADCRUMB BAR 1 (Welcome back, [user]) */
 
 .navbar-status, .navbar-expand {
-	background: #A3A3A3 !important;
-	color: #616161 !important;
+	background: #A3A3A3;
+	color: #616161;
 }
 
 .navbar-status, .navbar-expand a.nav-link {
-	color: #616161 !important;
-	font-size: 14px !important;
-	border-top-left-radius: 0px !important;
-	border-top-right-radius: 0px !important;
+	color: #616161;
+	font-size: 14px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
 }
 
 span.d-none.d-lg-inline.navbar-text a:hover {
-	color: #616161 !important;
+	color: #616161;
 }
 
 button.btn.dropdown-toggle.border-0.text-light.b.m-0.p-0 {
-	color: #616161 !important;
-	transition: 0s !important;
+	color: #616161;
+	transition: 0s;
 }
 
 i.fa.fa-envelope-open, i.fa.fa-box {
-	color: #616161 !important;
+	color: #616161;
 }
 
 /* BREADCRUMB BAR 1 DROPDOWN */
 
 div.dropdown-menu.show {
-	background: #f6f2e9 !important;
-	border: none !important;
-	color: #616161 !important;
+	background: #f6f2e9;
+	border: none;
+	color: #616161;
 }
 
 a.dropdown-item.text-dark {
-	color: #616161 !important;
+	color: #616161;
 }
 
 /* BREADCRUMB BAR 2 (Home / [user] / Pack) */
  
 nav.breadcrumb-nav {
-	background: rgba(239, 221, 187, 0.4) !important;
-	color: #616161 !important;
-	border-bottom: none !important;
+	background: rgba(239, 221, 187, 0.4);
+	color: #616161;
+	border-bottom: none;
 }
 
 nav.breadcrumb-nav a {
-	color: #616161 !important;
+	color: #616161;
 }
 
 li.breadcrumb-item.active {
-	color: #616161 !important;
+	color: #616161;
 }
 
 @media only screen and (max-width: 1199px) and (min-width: 992px)  {
@@ -128,354 +128,354 @@ li.breadcrumb-item.active {
 /* ALERTS */
 
 .alert, .alert-success, .alert-danger {
-	background: # D4D1C2 !important;
-	border: none !important;
-	color: #616161 !important;
+	background: # D4D1C2;
+	border: none;
+	color: #616161;
 }
 
 .alert a, .alert-success a, .alert-danger a {
-	color: #616161 !important;
+	color: #616161;
 }
 
 /* LEFT SIDEBAR (BACKGROUND) */
 
 div.col-lg-3 {
-	background: rgba(239, 221, 187, 0.4) !important;
-	border-right: none !important; 
+	background: rgba(239, 221, 187, 0.4);
+	border-right: none; 
 }
 
 /* MAIN PANEL (BACKGROUND) */
 
 div.col-lg-9.order-lg-2 {
-	background: rgba(239, 221, 187, 0.4) !important;
+	background: rgba(239, 221, 187, 0.4);
 }
 
 /* PACK NAME (H1) */
 
 div.col-lg-9.order-lg-2 h1 {
-	color: #616161 !important;
-	font-size: 50px !important;
+	color: #616161;
+	font-size: 50px;
 	text-shadow: 1px 1px rgba(255, 255, 255, 0.8);
 }
 
 /* TAB 1 ([User]'s Den) + /* TAB 2 ([User]'s Profile) (Text Color Shared With Navbar) */ 
 
 ul.nav.nav-tabs a.nav-link {
-	background: none !important;
-	color: #616161 !important;
-	margin: 1px !important;
-	border: none !important;
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;
+	background: none;
+	color: #616161;
+	margin: 1px;
+	border: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 ul.nav.nav-tabs {
-	border-bottom: none !important;
+	border-bottom: none;
 }
 
 ul.nav.nav-tabs a.nav-link.active {
-	background: # D8D7D5 !important;
-	color: #616161 !important;
-	border: none !important;
-	border-bottom: none !important;
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;
-	margin: 1px !important;
+	background: # D8D7D5;
+	color: #616161;
+	border: none;
+	border-bottom: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin: 1px;
 }
 
 /* REPORT A BUG */
 
 button.btn.btn-danger.btn-lg.mb-3 {
-	background: # D4D4D4 !important;
-	color: #616161 !important;
-	border: none !important;
-	margin-top: 10px !important;
+	background: # D4D4D4;
+	color: #616161;
+	border: none;
+	margin-top: 10px;
 }
 
 /* BUGBOX */
 
 form.mb-3.text-center a h4 {
-	color: #616161 !important;
+	color: #616161;
 }
 
 form.mb-3.text-center a h4 i.fa.fa-box {
-	color: #616161 !important;
+	color: #616161;
 }
 
 /* LEFT PANELS */
 
 .card {
-	background: #f6f2e9 !important;
-	border: none !important;
-	border-radius: 10px !important;
+	background: #f6f2e9;
+	border: none;
+	border-radius: 10px;
 }
 
 div.card-body a {
-	color: #616161 !important;
+	color: #616161;
 }
 
 div.card-body a b {
-	color: #616161 !important;
+	color: #616161;
 }
 
 h3 {
-	color: #616161 !important;
+	color: #616161;
 }
 
 /* LEFT PANELS SHADOW */
 
 #sidebar .card {
-	border-bottom: 7px solid #e0dcd4 !important;
+	border-bottom: 7px solid #e0dcd4;
 }
 
 /* CHAT TOGGLE */
 
 i.fa.fa-plus.fa-lg, i.fa.fa-lg.fa-minus {
-	color: #828282 !important;
+	color: #828282;
 }
 
 /* PROGRESS BARS */
 
 .progress {
-	background: #e0dcd4 !important;
+	background: #e0dcd4;
 }
 
 div#progress-energy.progress-bar.bg-warning {
-	background: #FFE894 !important;
+	background: #FFE894;
 }
 
 div#progress-hunger.progress-bar.bg-danger {
-	background: #5790BF !important;
+	background: #5790BF;
 }
 
 div#progress-hp.progress-bar.bg-info {
-	background: #EB4242 !important;
+	background: #EB4242;
 }
  
 div#progress-xp.progress-bar.bg-success {
-	background: #5CB55C !important;
+	background: #5CB55C;
 }
 
 div.progress-bar.bg-warning {
-	background: #FFE894 !important;
+	background: #FFE894;
 }
 
 div.progress-bar.bg-primary {
-	background: #5790BF !important;
+	background: #5790BF;
 }
 
 div.progress-bar.bg-danger {
-	background: #EB4242 !important;
+	background: #EB4242;
 }
 
 div.progress-bar.bg-info {
-	background: #5CB55C !important;
+	background: #5CB55C;
 }
 
 div.progress-bar.bg-success {
-	background: #E0DEE0 !important;
+	background: #E0DEE0;
 }
 
 /* WOLF NAME BAR */
 
 th.pt-1.pb-1 {
-	background: #7D7D7D !important;
-	color: #F5F5F5 !important;
-	border: none !important;
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;	
+	background: #7D7D7D;
+	color: #F5F5F5;
+	border: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;	
 }
 
 th.pt-1.pb-1 a {
-	color: #F5F5F5 !important;
+	color: #F5F5F5;
 }
 
 /* CAVE NAME BAR */
 
 th.top {
-	background: #7D7D7D !important;
-	color: #F5F5F5 !important;
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;
+	background: #7D7D7D;
+	color: #F5F5F5;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 th.top a {
-	color: #F5F5F5 !important;
+	color: #F5F5F5;
 }
 
 /* "MANAGE (CAVE NAME)" */
 
 .floatright a {
-	color: #4C4C4C !important;
+	color: #4C4C4C;
 }
 
 /* SELECT/INPUT BARS */
 
 select.form-control {
-	background: #F6F6F6 !important;
-	color: #616161 !important;
-	border: none !important;
+	background: #F6F6F6;
+	color: #616161;
+	border: none;
 }
 
 button.btn.btn-success {
-	background: #D7D7D7 !important;
+	background: #D7D7D7;
 	color: #616161!important;
-	border: none !important;
+	border: none;
 }
 
 /* CAVE UPDATE BUTTON */
 
 button#submitBtn.btn.btn-primary {
-	background: #D7D7D7 !important;
-	color: #616161 !important;
-	border: none !important;
+	background: #D7D7D7;
+	color: #616161;
+	border: none;
 }
 
 /* MAIN PANELS/TABLES */
 
 tr {
-	background: #F6F6F6 !important;
-	border: none !important;
+	background: #F6F6F6;
+	border: none;
 }
 
 td.row {
-	background: none !important;
-	border: none !important;
+	background: none;
+	border: none;
 }
 
 td.bottom {
-	background: #F6F6F6 !important;
-	border-bottom-left-radius: 10px !important;
-	border-bottom-right-radius: 10px !important;
+	background: #F6F6F6;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 td.bottom tr.pup {
-	border-bottom-left-radius: 10px !important;
-	border-bottom-right-radius: 10px !important;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 tbody tr td {
-	background: #F6F6F6 !important;
+	background: #F6F6F6;
 }
 
 /* INNER TABLE (LEFT) */
 
 td.b {
-	background: #F6F6F6 !important;
+	background: #F6F6F6;
 }
 
 /* INNER TABLE (RIGHT) */
 
 tr td a {
-	color: #616161 !important;
+	color: #616161;
 }
 
 i.fas.fa-question-circle {
-	color: #F6F6F6 !important;
+	color: #F6F6F6;
 }
 
 /* LEAD WOLF SHADOW */
 
 div.card-body.pt-1.pb-1 {
-	background: #F6F6F6 !important;
+	background: #F6F6F6;
 }
 
 /* FEATURED WOLF */
 
 div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.featured-wolf a {
-	color: #616161 !important;
+	color: #616161;
 }
 
 .card-user {
-	border: none !important;
+	border: none;
 }
 
 /* REMOVE FEATURED WOLF BUTTON */
 
 button.btn.btn-link.btn-sm.text-danger {
-	color: #616161 !important;
+	color: #616161;
 }
 
 /* WOLF IMAGES */
 
 td.row img.card-img-top {
-	border-radius: 20px !important;
-	overflow: hidden !important;
+	border-radius: 20px;
+	overflow: hidden;
 }
 
 div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf img {
-	border-radius: 20px !important;
-	overflow: hidden !important;
+	border-radius: 20px;
+	overflow: hidden;
 }
  
 div.card-body img {
-	border-radius: 20px !important;
-	overflow: hidden !important;
+	border-radius: 20px;
+	overflow: hidden;
 }
 
 /* DYNASTY, NESTING, OVERVIEW, BREEDING, TERRITORY SLOT, IMMORTAL SLOT */
 
 .card-header {
-	background: #D4D4D4 !important;
-	color: #616161 !important;
-	text-decoration: none !important;
-	border-bottom-left-radius: 10px !important;
-	border-bottom-right-radius: 10px !important;
+	background: #D4D4D4;
+	color: #616161;
+	text-decoration: none;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 div.col-md-6 .card-header {
-	background: #D4D4D4 !important;
-	color: #616161 !important;
-	text-decoration: none !important;
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;
-	border-bottom-left-radius: 0px !important;
-	border-bottom-right-radius: 0px !important;
+	background: #D4D4D4;
+	color: #616161;
+	text-decoration: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
 }
 
 .card-header:hover {
-	text-decoration: none !important;
+	text-decoration: none;
 }
 
 .card-header b:hover {
-	color: #616161 !important;
+	color: #616161;
 }
 
 button.btn.btn-warning {
-	background: #d4d4d4 !important;
-	border: none !important;
+	background: #d4d4d4;
+	border: none;
 }
 
 /* DYNASTY, NESTING, OVERVIEW, BREEDING IMAGES */
 
 div.card.text-center>img {
 	content: url('https://puu.sh/Guix1/ca44f8c2d2.png')!important;
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 a[href$="dynasty/401"]>div.card.text-center>img {
 	content: url('https://puu.sh/Guix2/88c305504b.png')!important;
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 a[href$="pack-overview/401"]>div.card.text-center>img {
 	content: url('https://puu.sh/Guix3/e4ded7d49d.png')!important;
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 a[href$="breed/117"]>div.card.text-center>img {
 	content: url('https://puu.sh/GuixI/e0b3510c66.png')!important;
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 /* FAPA, AUTO NESTING */
 
 div#autoNesting.card-header {
-	background: #d4d4d4 !important;
+	background: #d4d4d4;
 	color: #616161!important;
 	overflow: hidden!important;
 }
@@ -490,11 +490,11 @@ div#groveServices.accordion {
 /* FAPA, AUTO NESTING TEXT */
 
 button.btn.btn-link.btn-block.text-left.border-0.b.pl-0, button.btn.btn-link.btn-block.text-left.border-0.b.pl-0 a {
-	color: #616161 !important;
+	color: #616161;
 }
 
 a.text-danger.small {
-	color: #616161 !important;
+	color: #616161;
 }
 
 /* CREATE A CAVE */
@@ -510,7 +510,7 @@ button.btn.btn-info.btn-sm {
 button.btn.btn-info.btn-sm {
 	background: #c4c4c4;
 	color: #f6f6f6;
-	border: none !important;
+	border: none;
 }
 
 /* ROLLOVERS REMAINING TEXT */
@@ -522,33 +522,33 @@ div.col-auto.pt-1 {
 /* COPYRIGHT */
 
 div.row.justify-content-center {
-	background: #e0c17c !important;
-	border: none !important;
-	color: #616161 !important;
-	border-bottom-left-radius: 10px !important;
-	border-bottom-right-radius: 10px !important;
+	background: #e0c17c;
+	border: none;
+	color: #616161;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 div.row.justify-content-center a {
-	color: #616161 !important;
+	color: #616161;
 }
 
 nav.navbar.navbar-expand.navbar-dark.flex-wrap.justify-content-center {
-	background: #E0E0E0 !important;
+	background: #E0E0E0;
 }
 
 /* SHITTY BORDER BEGONE */
 
 table.table.table-striped {
-	border: none !important;
+	border: none;
 }
 
 table.table {
-	border: none !important;
+	border: none;
 }
 
 div.w-50 {
-	border: none !important;
+	border: none;
 }
 
 /* LEAD WOLF PAGE & USER PROFILE ADDONS */
@@ -556,154 +556,154 @@ div.w-50 {
 /* OWNED BY ___ TEXT */
 
 div.float-right.text-right a {
-	color: #616161 !important;
+	color: #616161;
 }
 
 /* VIEW PREVIOUS PACKS TEXT */
 
 span.small a {
-	color: #616161 !important;
+	color: #616161;
 }
 
 /* HEADER BARS */
 
 th.b, tbody tr th {
-	background: #e0e0e0 !important;
-	border: none !important;
-	color: #616161 !important;
+	background: #e0e0e0;
+	border: none;
+	color: #616161;
 }
 
 /* STATS */
 
 td.table-info.b.text-right {
-	background: none !important;
+	background: none;
 }
 
 td.table-info.b.text-left {
-	background: none !important;
+	background: none;
 }
 
 /* RETIRE, VIEW FAMILY, VIEW IN WARDROBE, GO TO EQUIPPER BUTTONS */
 
 a.btn.btn-primary.btn-block {
-	background: #e0e0e0 !important;
-	border: none !important;
-	color: #616161 !important;
+	background: #e0e0e0;
+	border: none;
+	color: #616161;
 }
 
 a.btn.btn-info.btn-block {
-	background: #e0e0e0 !important;
-	border: none !important;
-	color: #616161 !important;
+	background: #e0e0e0;
+	border: none;
+	color: #616161;
 }
 
 /* WOLF DETAILS, DECORATIONS, SETTINGS BUTTONS */
 
 a.nav-item.nav-link {
-	background: #e0e0e0 !important;
-	border: none !important;
-	margin: 5px !important;
-	color: #616161 !important;
+	background: #e0e0e0;
+	border: none;
+	margin: 5px;
+	color: #616161;
 }
 
 /* ACHIEVEMENTS */
 
 div.alert.alert-info.text-center {
-	background: #d4d4d4 !important;
+	background: #d4d4d4;
 }
 
 /* PROFILE DIVIDER LINES */
 
 div#nav-tab.nav.nav-tabs {
-	border-color: #f6f6f6 !important;
+	border-color: #f6f6f6;
 }
 
 hr {
-	border-color: #f6f6f6 !important;
+	border-color: #f6f6f6;
 }
 
 /* BREED TO THIS BREEDING MALE BUTTON */
 
 a.btn.btn-info {
-	background: #e0e0e0 !important;
-	border: none !important;
-	color: #f6f6f6 !important;
+	background: #e0e0e0;
+	border: none;
+	color: #f6f6f6;
 }
 
 /* UPDATE BUTTON */
 
 button.btn.btn-primary.float-right {
-	background: #e0e0e0 !important;
-	border: none !important;
-	color: #f6f6f6 !important;
+	background: #e0e0e0;
+	border: none;
+	color: #f6f6f6;
 }
 
 /* REPORT WOLF BUTTON */
 
 button.btn.btn-danger {
-	background: #e0e0e0 !important;
-	border: none !important;
-	color: #616161 !important;
+	background: #e0e0e0;
+	border: none;
+	color: #616161;
 }
 
 /* CHANGE PASSWORD, MANAGE DEVICES, VIEW USER LOG */
 
 div.card-body.text-center.font-weight-bold.p-2 {
-	background: #e0e0e0 !important;
-	color: #616161 !important;
+	background: #e0e0e0;
+	color: #616161;
 }
 
 /* LAST ACTIVE TEXT + ONLINE/OFFLINE DOTS */
 
 span.text-success {
-	color: #4E9C53 !important;
+	color: #4E9C53;
 }
 
 span.text-failure {
-	color: #B22C25 !important;
+	color: #B22C25;
 }
 
 /* LEFT + RIGHT ARROWS */
 
 i.fas.fa-arrow-alt-circle-left {
-	color: #616161 !important;
+	color: #616161;
 }
 
 i.fas.fa-arrow-alt-circle-right {
-	color: #616161 !important;
+	color: #616161;
 }
 
 /* WOLF ID */
 
 span.text-muted {
-	color: #616161 !important;
+	color: #616161;
 }
 
 /* BIO TEXT BOX */
 
 div.note-toolbar.card-header {
-	background: #e0e0e0 !important;
-	color: #B22C25 !important;
+	background: #e0e0e0;
+	color: #B22C25;
 }
 
 div.note-editing-area {
-	background: #f6f6f6 !important;
-	color: #616161 !important;
+	background: #f6f6f6;
+	color: #616161;
 }
 
 /* LINKS */
 
 a:link,
 a:visited {
-	color: #616161 !important;
+	color: #616161;
 }
 
 span.d-none.d-md-inline {
-	color: #616161 !important;
+	color: #616161;
 }
 
 a:hover {
-	color: #FFD84C !important;
+	color: #FFD84C;
 }
 
 /* BOXES */ 
@@ -722,7 +722,7 @@ a:hover {
 	color: #616161;
 	padding: 15px;
 	border: none;
-	border-bottom: 7px solid #e0e0e0 !important;
+	border-bottom: 7px solid #e0e0e0;
 	border-radius: 10px;
 	margin: 10px 10px 20px 10px;
 	height: 285px;
@@ -731,7 +731,7 @@ a:hover {
 }
 
 .profilebox a:link, .profilebox a:visited {
-	color: #878787 !important;
+	color: #878787;
 }
 
 .denbox {
@@ -748,7 +748,7 @@ a:hover {
 }
 
 .denbox a:link, .denbox a:visited {
-	color: #878787 !important;
+	color: #878787;
 }
 
 .art {
@@ -794,22 +794,22 @@ a:hover {
 }
 
 .creditbox a:link, .creditbox a:visited {
-	color: #878787 !important;
+	color: #878787;
 }
 
 .creditbox2 a:link, .creditbox2 a:visited {
-	color: #878787 !important;
+	color: #878787;
 }
 
 @media screen and (max-width: 600px){
 .art {
-	display: none !important;
-	visibility: hidden !important;
+	display: none;
+	visibility: hidden;
 }
 
 .creditbox {
-	display: none !important;
-	visibility: hidden !important;
+	display: none;
+	visibility: hidden;
 }
 }
 
@@ -819,44 +819,44 @@ a:hover {
 	width: 8px;
 	height: 0px;
 	border-radius: 10px;
-	overflow: hidden !important;
+	overflow: hidden;
 }
 
 ::-webkit-scrollbar-track {
 	background: #e0e0e0;
 	border-radius: 10px;
-	overflow: hidden !important;
+	overflow: hidden;
 }
 
 ::-webkit-scrollbar-thumb {
 	background: #c4c4c4;
 	border-radius: 10px;
-	overflow: hidden !important;
+	overflow: hidden;
 }
 
 .denbox::-webkit-scrollbar {
 	width: 8px;
 	height: 0px;
-	border-top-right-radius: 10px !important;
-	border-bottom-right-radius: 10px !important;
-	border-top-left-radius: 0px !important;
-	border-bottom-left-radius: 0px !important;
-	overflow: hidden !important;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	overflow: hidden;
 }
 
 .denbox::-webkit-scrollbar-track {
 	background: #e0e0e0;
-	border-top-right-radius: 10px !important;
-	border-bottom-right-radius: 10px !important;
-	border-top-left-radius: 0px !important;
-	border-bottom-left-radius: 0px !important;
-	overflow: hidden !important;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	overflow: hidden;
 }
 
 .denbox::-webkit-scrollbar-thumb {
 	background: #c4c4c4;
-	border-radius: 10px !important;
-	overflow: hidden !important;
+	border-radius: 10px;
+	overflow: hidden;
 }
 
 
